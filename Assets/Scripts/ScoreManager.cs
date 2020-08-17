@@ -23,7 +23,7 @@ public class ScoreManager : MonoBehaviour
     {
         cash = score / 10;
 
-        scoreText.text = "Score: " + score.ToString("0");
-        cashText.text = "Cash: $" + cash.ToString("0");
+        scoreText.text = /*"Score: " +*/ score.ToString("0");
+        cashText.text = /*"Cash: $" + */cash.ToString("0");
     }
 }
