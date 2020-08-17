@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6766563351365254442}
   - component: {fileID: 7798648273269636771}
-  - component: {fileID: 8662708659590760864}
+  - component: {fileID: 2637452018347230159}
   m_Layer: 0
   m_Name: Jumbo Cup
   m_TagString: Coffee
@@ -49,8 +49,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &8662708659590760864
-BoxCollider:
+--- !u!136 &2637452018347230159
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -59,9 +59,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.63, y: 3.94, z: 2.6}
-  m_Center: {x: 0, y: 2.09, z: 0}
+  m_Radius: 1.19
+  m_Height: 4.49
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.19, z: 0}
 --- !u!1 &4716767509711350692
 GameObject:
   m_ObjectHideFlags: 0
