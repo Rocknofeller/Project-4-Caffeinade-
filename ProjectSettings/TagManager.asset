@@ -7,6 +7,7 @@ TagManager:
   - CashR
   - Floor
   - Chair
+  - Coffee
   layers:
   - Default
   - TransparentFX
