@@ -70,15 +70,15 @@ ModelImporter:
       name: OldPops|Sitting
       takeName: OldPops|Sitting
       internalID: 0
-      firstFrame: 0
-      lastFrame: 210
+      firstFrame: 10
+      lastFrame: 190
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
