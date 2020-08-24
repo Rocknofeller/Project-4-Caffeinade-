@@ -9,15 +9,17 @@ public class LevelLoader : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
     bool haveSpin = false;
+    public GameObject instructions;
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(haveSpin);
+        //Place Menu Items here in the Level Loader
         if(Input.GetMouseButtonDown(0) && haveSpin == false)
         {
             haveSpin = true;
             Debug.Log(haveSpin);
+            instructions.SetActive(false);
         }
         else if (Input.GetMouseButtonDown(0) && haveSpin == true)
         {
