@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &767588525780594969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4702180896010778147}
+  m_Layer: 0
+  m_Name: HeartTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4702180896010778147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767588525780594969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.79, z: 0.31}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1284588280919348566}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &667447309761873396
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43,6 +73,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoring: {fileID: 0}
+  controller: {fileID: 0}
+  heart: {fileID: 9086617425779004907, guid: c84f5e2e49df97e44a4d1aa1463a2aab, type: 3}
+  heartTransform: {fileID: 4702180896010778147}
 --- !u!1001 &1610458259858043581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -140,6 +173,12 @@ PrefabInstance:
 --- !u!1 &1916306452874760172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f81216dabc158774da11fa5d4de90c2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1610458259858043581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1284588280919348566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f81216dabc158774da11fa5d4de90c2b,
     type: 3}
   m_PrefabInstance: {fileID: 1610458259858043581}
   m_PrefabAsset: {fileID: 0}

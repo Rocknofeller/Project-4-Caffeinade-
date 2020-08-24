@@ -8,15 +8,22 @@ public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime = 1f;
-  
+    bool haveSpin = false;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        Debug.Log(haveSpin);
+        if(Input.GetMouseButtonDown(0) && haveSpin == false)
+        {
+            haveSpin = true;
+            Debug.Log(haveSpin);
+        }
+        else if (Input.GetMouseButtonDown(0) && haveSpin == true)
         {
             LoadNextLevel();
         }
+        
     }
 
     public void LoadNextLevel()

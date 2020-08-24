@@ -8,6 +8,7 @@ TagManager:
   - Floor
   - Chair
   - Coffee
+  - Heart
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - 
   - Customer
   - Player
-  - 
+  - DUI
   - 
   - 
   - 
