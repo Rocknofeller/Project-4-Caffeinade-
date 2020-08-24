@@ -19,6 +19,8 @@ public class ShootCoffee : MonoBehaviour
     public float reloadTime;
     public Text AmmoCount;
 
+    public int BulletsFired = 0;
+
 
     private void Start()
     {
@@ -52,6 +54,7 @@ public class ShootCoffee : MonoBehaviour
     {
         var bullet = Instantiate(coffee, playerHolder.position, playerHolder.rotation);
         bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
+        BulletsFired++;
 
         bulletCount -= 1;
         Debug.Log(bulletCount);
