@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
@@ -38,5 +39,6 @@ public class LevelLoader : MonoBehaviour
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelIndex);
+        AnalyticsEvent.LevelStart(SceneManager.GetActiveScene().name, SceneManager.GetActiveScene().buildIndex);
     }
 }
