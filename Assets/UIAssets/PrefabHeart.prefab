@@ -180,8 +180,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8453809329368125265}
+  - component: {fileID: 1486821473167677916}
+  - component: {fileID: 130574282053032095}
   m_Layer: 5
-  m_Name: Heart
+  m_Name: PrefabHeart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,12 +196,40 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9086617425779004907}
-  m_LocalRotation: {x: -0, y: -0.18520886, z: -0, w: 0.98269916}
-  m_LocalPosition: {x: -2.9, y: 4.6, z: -5.88}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9016702307119922697}
   - {fileID: 8276296384264435649}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -21.347, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &1486821473167677916
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086617425779004907}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 803dbf3908b36bf428d1b0ac1596c938, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 803dbf3908b36bf428d1b0ac1596c938, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &130574282053032095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086617425779004907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f0074ec9da0ea4890d1f724d7170d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

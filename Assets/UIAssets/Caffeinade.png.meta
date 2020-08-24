@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: c64d78c5cfe3a3247bdd03b5fad01b54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2734086789913698515
+    second: Caffeinade_0
+  - first:
+      213: 1034084648763975702
+    second: Caffeinade_1
+  - first:
+      213: 9114723845575946340
+    second: Caffeinade_2
+  - first:
+      213: 8440076969933834443
+    second: Caffeinade_3
+  - first:
+      213: 7542886023159674368
+    second: Caffeinade_4
+  - first:
+      213: 7367549908177782974
+    second: Caffeinade_5
+  - first:
+      213: 1052584670222799134
+    second: Caffeinade_6
+  - first:
+      213: 2636521257384020705
+    second: Caffeinade_7
+  - first:
+      213: 2518417428158189166
+    second: Caffeinade_8
+  - first:
+      213: -8880022256158779311
+    second: Caffeinade_9
+  - first:
+      213: -3687803462049690967
+    second: Caffeinade_10
+  - first:
+      213: -2992816409897648294
+    second: Caffeinade_11
+  - first:
+      213: -731258595736475214
+    second: Caffeinade_12
+  - first:
+      213: -7601390772637788943
+    second: Caffeinade_13
+  - first:
+      213: 6111331520051413895
+    second: Caffeinade_14
+  - first:
+      213: -4403358451635098819
+    second: Caffeinade_15
+  - first:
+      213: 8842477128518311532
+    second: Caffeinade_16
+  - first:
+      213: 3539028787380914720
+    second: Caffeinade_17
+  - first:
+      213: 5325660204260370446
+    second: Caffeinade_18
+  - first:
+      213: -4805911324713031950
+    second: Caffeinade_19
+  - first:
+      213: 6620676667450740321
+    second: Caffeinade_20
+  - first:
+      213: -7518501281486949130
+    second: Caffeinade_21
+  - first:
+      213: 2588085079431632093
+    second: Caffeinade_22
+  - first:
+      213: 1370983419738361813
+    second: Caffeinade_23
+  - first:
+      213: 7326110780558470442
+    second: Caffeinade_24
+  - first:
+      213: 8782265581300077098
+    second: Caffeinade_25
+  - first:
+      213: 405493333867283117
+    second: Caffeinade_26
+  - first:
+      213: 8637171074371456476
+    second: Caffeinade_27
+  - first:
+      213: -32413033266289592
+    second: Caffeinade_28
+  - first:
+      213: 5157864968650689388
+    second: Caffeinade_29
+  - first:
+      213: 5021685104393558918
+    second: Caffeinade_30
+  - first:
+      213: -3126389415333575714
+    second: Caffeinade_31
+  - first:
+      213: -8249756531729064176
+    second: Caffeinade_32
+  - first:
+      213: 3747616818544136015
+    second: Caffeinade_33
+  - first:
+      213: 1574988319255646451
+    second: Caffeinade_34
+  - first:
+      213: 1787999575133946236
+    second: Caffeinade_35
+  - first:
+      213: 974692578309878357
+    second: Caffeinade_36
+  - first:
+      213: -178830954789207323
+    second: Caffeinade_37
+  - first:
+      213: -4435562856516603498
+    second: Caffeinade_38
+  - first:
+      213: 2881480714359387238
+    second: Caffeinade_39
+  - first:
+      213: 1696514838038454923
+    second: Caffeinade_40
+  - first:
+      213: 8524586322026897954
+    second: Caffeinade_41
+  - first:
+      213: 7272088622474633755
+    second: Caffeinade_42
+  - first:
+      213: -8065950005553078472
+    second: Caffeinade_43
+  - first:
+      213: -6724056322977539088
+    second: Caffeinade_44
+  - first:
+      213: -4454949764135861846
+    second: Caffeinade_45
+  - first:
+      213: 6898600480818048411
+    second: Caffeinade_46
+  - first:
+      213: 8149618996831477431
+    second: Caffeinade_47
+  - first:
+      213: 217200594159315282
+    second: Caffeinade_48
+  - first:
+      213: -1097628073979159649
+    second: Caffeinade_49
+  - first:
+      213: -3181866339306322869
+    second: Caffeinade_50
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Caffeinade_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 512
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f1b16ec829e0ad0800000000000000
+      internalID: -2734086789913698515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caffeinade_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 512
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618e24d528ec95e00800000000000000
+      internalID: 1034084648763975702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caffeinade_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 512
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4603651bb010e7e70800000000000000
+      internalID: 9114723845575946340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caffeinade_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc88cd5694d212570800000000000000
+      internalID: 8440076969933834443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bd467fdc44a6a6a4d89e7ca1b3f6b10e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
