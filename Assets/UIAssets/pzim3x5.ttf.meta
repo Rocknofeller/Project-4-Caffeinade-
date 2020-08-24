@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6495e6b193bb83b4c9c0bb9081524c3e
+guid: 8a7d349d48d42db4897ef7c74e05d279
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Invasion2000
+  fontName: Pixelzim
   fontNames:
-  - Invasion2000
+  - Pixelzim
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
