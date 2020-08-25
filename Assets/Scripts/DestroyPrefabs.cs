@@ -37,11 +37,13 @@ public class DestroyPrefabs : MonoBehaviour
         //Object gets destroyed when hit by coffee
         else if(other.gameObject.tag == "Coffee")
         {
-
+            
             Instantiate(heart, pos, rotation);
             Destroy(gameObject);
             Destroy(other.gameObject);
-            scoring.score += 10f; 
+            scoring.score += 10f;
+
+            AudioManagerScript.PlaySound("cashRegSound");
         }
     }
 

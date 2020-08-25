@@ -14,7 +14,7 @@ public class AudioManagerScript : MonoBehaviour
 
     void Start()
     {
-        Cash = Resources.Load<AudioClip>("CashRegister");
+        Cash = Resources.Load<AudioClip>("cashRegSound");
 
         beep = GetComponent<AudioSource>();
     }
@@ -23,12 +23,9 @@ public class AudioManagerScript : MonoBehaviour
     {
         switch (clip)
         {
-            case "CashRegister":
+            case "cashRegSound":
                 beep.PlayOneShot(Cash);
                 break;
-
-            
-
 
         }
     }
