@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Analytics;
 
 public class ShootCoffee : MonoBehaviour
 {
@@ -56,6 +57,8 @@ public class ShootCoffee : MonoBehaviour
     {
         var bullet = Instantiate(coffee, playerHolder.position, playerHolder.rotation);
         bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
+        AnalyticsResult analyticsResult = Analytics.CustomEvent("CoffeeFired", new Dictionary<string, object> { { "bulletsFired", BulletsFired } });
+        Debug.Log("analyticsResult: " + analyticsResult);
         BulletsFired++;
 
         bulletCount -= 1;
