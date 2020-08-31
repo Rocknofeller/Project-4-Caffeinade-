@@ -39,6 +39,7 @@ public class LevelLoader : MonoBehaviour
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelIndex);
-        AnalyticsEvent.LevelStart(SceneManager.GetActiveScene().name, SceneManager.GetActiveScene().buildIndex);
+        AnalyticsResult analyticsResult = AnalyticsEvent.LevelStart(SceneManager.GetActiveScene().name, SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("analyticsResult: " + analyticsResult);
     }
 }

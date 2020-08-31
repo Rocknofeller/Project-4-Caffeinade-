@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.UI;
 
 public class ShootCoffee : MonoBehaviour
@@ -55,6 +56,8 @@ public class ShootCoffee : MonoBehaviour
         var bullet = Instantiate(coffee, playerHolder.position, playerHolder.rotation);
         bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
         BulletsFired++;
+        AnalyticsResult analyticsResult = Analytics.CustomEvent("CoffeeFired" + BulletsFired);
+        Debug.Log("analyticsResult: " + analyticsResult);
 
         bulletCount -= 1;
         Debug.Log(bulletCount);
@@ -66,6 +69,7 @@ public class ShootCoffee : MonoBehaviour
         }
 
         Destroy(bullet, despawnTime);
+
     }
 
     IEnumerator ReloadCoroutine()
