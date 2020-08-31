@@ -21,6 +21,8 @@ public class ShootCoffee : MonoBehaviour
 
     public int BulletsFired = 0;
 
+    public GameObject pauseCheck;
+
 
     private void Start()
     {
@@ -28,7 +30,7 @@ public class ShootCoffee : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0) && pauseCheck.GetComponent<PauseMenu>().GameIsPaused == false)
         {
             if (shootAble)
             {
