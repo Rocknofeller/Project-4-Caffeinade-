@@ -10199,6 +10199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameIsPaused: 0
   pauseMenuUI: {fileID: 1059470003}
+  FPSController: {fileID: 925198936}
 --- !u!1001 &1935120197
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -58,7 +58,7 @@ public class ShootCoffee : MonoBehaviour
         var bullet = Instantiate(coffee, playerHolder.position, playerHolder.rotation);
         bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
         AnalyticsResult analyticsResult = Analytics.CustomEvent("CoffeeFired", new Dictionary<string, object> { { "bulletsFired", BulletsFired } });
-        Debug.Log("analyticsResult: " + analyticsResult);
+        Debug.Log("analyticsResult: " + analyticsResult.ToString());
         BulletsFired++;
 
         bulletCount -= 1;
